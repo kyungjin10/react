@@ -4,6 +4,7 @@ import Header from './conponents/Header'
 import Editor from './conponents/Editor'
 import List from './conponents/List'
 import TodoItem from './conponents/TodoItem'
+import Exam from './conponents/Exam'
 
 
 const mockData = [
@@ -63,9 +64,10 @@ function App() {
   }
   return (
     <div className='App'>
-      <Header />
+      <Exam />
+      {/* <Header />
       <Editor onCreate={onCreate}/>
-      <List todos={todos} onUpdate={onUpdate} onDelete={onDelete}/>
+      <List todos={todos} onUpdate={onUpdate} onDelete={onDelete}/> */}
     </div>
   )
 }
